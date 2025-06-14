@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Judul Web
-st.markdown("<h1 style='text-align: center; color: #2c3e50;'>Capstone Project Obesity</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #2c3e50;'>Prediksi Kategori Obesitas</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 <p style='text-align: center;'>
