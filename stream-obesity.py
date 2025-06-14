@@ -7,9 +7,11 @@ import numpy as np
 st.markdown("<h1 style='text-align: center; color: #2c3e50;'>Capstone Project Obesity</h1>", unsafe_allow_html=True)
 
 st.markdown("""
-Selamat datang di aplikasi prediksi kategori obesitas!  
+<p style='text-align: center;'>
+Selamat datang di aplikasi prediksi kategori obesitas!<br>
 Silakan isi data pribadi Anda di bawah ini secara lengkap dan akurat.
-""")
+</p>
+""", unsafe_allow_html=True)
 
 # Load model dan preprocessing tools
 rf_model = pickle.load(open('rf_model.sav', 'rb'))
