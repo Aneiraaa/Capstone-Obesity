@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Judul Web
-st.title('Prediksi Kategori Obesitas')
+st.set_page_config(page_title="Prediksi Obesitas", layout="centered")
 
 st.markdown("""
 Selamat datang di aplikasi prediksi kategori obesitas!  
