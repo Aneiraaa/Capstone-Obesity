@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Judul Web
-st.set_page_config(page_title="Prediksi Obesitas", layout="centered")
+st.markdown("<h1 style='text-align: center; color: #2c3e50;'>Capstone Project Obesity</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 Selamat datang di aplikasi prediksi kategori obesitas!  
