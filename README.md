@@ -1,6 +1,6 @@
 # 🧠 Capstone Project: Prediksi Kategori Obesitas
 
-Proyek ini merupakan aplikasi prediksi kategori obesitas berbasis **Machine Learning** menggunakan model **Random Forest Classifier**, serta antarmuka visual interaktif dengan **Streamlit**. Model dilatih menggunakan dataset obesitas dari Meksiko, Peru, dan Kolombia.
+Proyek ini merupakan aplikasi prediksi kategori obesitas berbasis **Machine Learning** menggunakan model **Random Forest Classifier**, serta antarmuka visual interaktif dengan **Streamlit**. 
 
 ---
 
