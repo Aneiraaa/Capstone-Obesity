@@ -6,6 +6,11 @@ import numpy as np
 # Judul Web
 st.title('Prediksi Kategori Obesitas')
 
+st.markdown("""
+Selamat datang di aplikasi prediksi kategori obesitas!  
+Silakan isi data pribadi Anda di bawah ini secara lengkap dan akurat.
+""")
+
 # Load model dan preprocessing tools
 rf_model = pickle.load(open('rf_model.sav', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
