@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Judul Web
-st.title('Capstone Project Obesity')
+st.title('Prediksi Kategori Obesitas')
 
 # Load model dan preprocessing tools
 rf_model = pickle.load(open('rf_model.sav', 'rb'))
