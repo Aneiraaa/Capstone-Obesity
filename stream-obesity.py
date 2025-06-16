@@ -14,7 +14,7 @@ Silakan isi data pribadi Anda di bawah ini secara lengkap dan akurat.
 """, unsafe_allow_html=True)
 
 # Load model dan preprocessing tools
-rf_model = pickle.load(open('rf_model.sav', 'rb'))
+dt_model = pickle.load(open('dt_model.sav', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 model_features = pickle.load(open('feature_columns.pkl', 'rb'))
 numerical_cols = pickle.load(open('numerical_columns.pkl', 'rb'))
@@ -84,5 +84,5 @@ if st.button("Prediksi Kategori Obesitas"):
     input_combined = input_combined[model_features]
 
     # Prediksi
-    prediction = rf_model.predict(input_combined)[0]
+    prediction = dt_model.predict(input_combined)[0]
     st.success(f"Kategori Obesitas yang Diprediksi: {prediction.replace('_', ' ').title()}")
